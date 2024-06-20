@@ -40,15 +40,22 @@ The PAN number format is typically represented as ABCDE1234F, where:
 - The last character is an uppercase alphabet.
 - This program uses regular expressions to validate if the entered PAN number conforms to this format.
 
+# Aadhaar Number -
+This contains a Java program to validate Aadhaar numbers using regular expressions. The Aadhaar number is a unique 12-digit identification number issued by the Unique Identification Authority of India (UIDAI).
+
+The Aadhaar number format is represented as a 12-digit number, where:
+- The first digit is between 2 and 9.
+- The next eleven digits can be any digit from 0 to 9.
+- This program uses regular expressions to validate if the entered Aadhaar number conforms to this format.
+
 ## Key Components
 
-Regular Expressions: Used to ensure the PAN and Aadhaar numbers follow the correct format.
-PAN: ^[A-Z]{5}[0-9]{4}[A-Z]{1}$
-Aadhaar: ^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}$
-Pattern and Matcher: Used to compile the regex and match it against the user input.
-Scanner: Used to read user input from the console.
-Validation Logic: Checks if the input matches the regex and outputs the result.
-
+- Regular Expressions: Used to ensure the PAN and Aadhaar numbers follow the correct format.
+- PAN: ^[A-Z]{5}[0-9]{4}[A-Z]{1}$
+- Aadhaar: ^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}$
+- Pattern and Matcher: Used to compile the regex and match it against the user input.
+- Scanner: Used to read user input from the console.
+- Validation Logic: Checks if the input matches the regex and outputs the result.
   
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
@@ -56,7 +63,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Feel free to fork this repository and contribute! If you encounter any issues or have suggestions, please open an issue or a pull request.
 
 Happy Coding!
-
-## Aadhaar Number
-
-regex = "";
