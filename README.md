@@ -61,6 +61,7 @@ The Aadhaar number format is represented as a 12-digit number, where:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-## Feel free to fork this repository and contribute! If you encounter any issues or have suggestions, please open an issue or a pull request.
+## Contributing
+Feel free to fork this repository and contribute! If you encounter any issues or have suggestions, please open an issue or a pull request.
 
 Happy Coding!
