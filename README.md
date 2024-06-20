@@ -1,4 +1,3 @@
-
 # Validation 
 This repository contains Java programs that provide validation for various important fields commonly used in India, including PAN (Permanent Account Number) and Aadhaar Number. The validation is performed using regular expressions to ensure the input adheres to the correct format.
 
@@ -61,6 +60,12 @@ The Aadhaar number format is represented as a 12-digit number, where:
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Connect 
+**Divyanka Pagare**
+
+- **Github:** [pagaredivyanka](https://github.com/pagaredivyanka)
+- **LinkedIn:** [divyanka-pagare](https://www.linkedin.com/in/divyanka-pagare-269b0422b/)
+- **E-mail:** pagaredivyanka@gmail.com
 
 ## Contributing
 Feel free to fork this repository and contribute! If you encounter any issues or have suggestions, please open an issue or a pull request.
