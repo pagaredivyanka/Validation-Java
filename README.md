@@ -1,20 +1,11 @@
 # Validation 
 This repository contains Java programs that provide validation for various important fields commonly used in India, including PAN (Permanent Account Number) and Aadhaar Number. The validation is performed using regular expressions to ensure the input adheres to the correct format.
 
-# Pan Number
-This  contains a Java program to validate PAN (Permanent Account Number) numbers using regular expressions. The PAN number is a unique identifier issued by the Income Tax Department of India.
-
 ## Overview
 
 This repository aims to provide a set of reusable Java classes that can be used to validate various types of important identification numbers used in India. Currently, it supports:
-
-PAN (Permanent Account Number) - 
-The PAN number format is typically represented as ABCDE1234F, where:
-
-- The first five characters are uppercase alphabets.
-- The next four characters are digits.
-- The last character is an uppercase alphabet.
-- This program uses regular expressions to validate if the entered PAN number conforms to this format.
+- PAN (Permanent Account Number)
+- Aadhaar Number
 
 ## Features
 - Validates the structure of PAN numbers.
@@ -25,7 +16,7 @@ The PAN number format is typically represented as ABCDE1234F, where:
 ## Requirements
 - Java Development Kit (JDK) 8 or higher.
 - An IDE or text editor to write and run Java code (optional).
-
+  
 ## Usage
 Clone the repository:
 
@@ -40,16 +31,25 @@ Run the Java program given in src/com/
 
 Follow the prompt to enter a PAN number. The program will output whether the entered PAN number is valid or not.
 
-Code Explanation
-ValidatePanNo.java
-java
+# PAN (Permanent Account Number) -
+This  contains a Java program to validate PAN (Permanent Account Number) numbers using regular expressions. The PAN number is a unique identifier issued by the Income Tax Department of India.
+
+The PAN number format is typically represented as ABCDE1234F, where:
+- The first five characters are uppercase alphabets.
+- The next four characters are digits.
+- The last character is an uppercase alphabet.
+- This program uses regular expressions to validate if the entered PAN number conforms to this format.
 
 ## Key Components
-- Regular Expression: The regex ^[A-Z]{5}[0-9]{4}[A-Z]{1}$ ensures the PAN number format is valid.
-- Regular Expression: The regex ^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}\\s$ ensures the PAN number format is valid.
-- Pattern and Matcher: Used to compile the regex and match it against the user input.
-- Scanner: Used to read user input from the console.
-- Validation Logic: Checks if the input matches the regex and outputs the result.
+
+Regular Expressions: Used to ensure the PAN and Aadhaar numbers follow the correct format.
+PAN: ^[A-Z]{5}[0-9]{4}[A-Z]{1}$
+Aadhaar: ^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}$
+Pattern and Matcher: Used to compile the regex and match it against the user input.
+Scanner: Used to read user input from the console.
+Validation Logic: Checks if the input matches the regex and outputs the result.
+
+  
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
