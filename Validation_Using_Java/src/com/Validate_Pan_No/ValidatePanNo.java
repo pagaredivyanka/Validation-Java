@@ -9,13 +9,14 @@ public class ValidatePanNo {
 		
 		String regex = "^[A-Z]{5}[0-9]{4}[A-Z]{1}$"; // This gives use valid Pan no 
 		
-		
+//		Compile the ReGex
 		Pattern p = Pattern.compile(regex);
 		
 		if (str == null) {
 			return false;
 		}
 		
+//		to check is string and regular expression matches each other
 		Matcher m = p.matcher(str);
 		
 		return m.matches();
