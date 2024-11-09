@@ -34,7 +34,7 @@ public class ValidAadhaarNo {
 		System.out.print("Enter Aadhaar Number : ");
 		String input = sc.nextLine();
 		
-//		isValid check is entered no and is satisfy all the conditions or not if satisfied then print "yes" else "no"
+//		isValid -> it checks is entered no satisfies all the conditions or not if satisfy then print "yes" else "no"
 		boolean isValid = isValidAadhaarNumber(input);
 		System.out.println("Is the entered Aadhaar number valid? ");
 		
